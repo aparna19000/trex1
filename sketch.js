@@ -192,7 +192,7 @@ function reset(){
   cloudsGroup.destroyEach();
   
   trex.changeAnimation("running",trex_running);
-  if(localStrorage["HighestScore"]<score){
+  if(localStorage["HighestScore"]<score){
     localStorage["HighestScore"]=score;
   }
   console.log(localStorage["HighestScore"]);
