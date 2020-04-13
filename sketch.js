@@ -1,6 +1,6 @@
 var PLAY = 1;
 var END = 0;
-var gameState = PLAY
+var gameState = PLAY;
 
 var trex, trex_running, trex_collided;
 var ground, invisibleGround, groundImage;
@@ -52,11 +52,11 @@ function setup() {
   gameOver = createSprite(300,100);
   gameOver.addImage(gameOverImg);
   
-  restart = createSprite(300,140)
-  restart.addImage(restartImg)
+  restart = createSprite(300,140);
+  restart.addImage(restartImg);
   
-  gameOver.scale = 0.5
-  restart.scale = 0.5
+  gameOver.scale = 0.5;
+  restart.scale = 0.5;
 
   gameOver.visible = false;
   restart.visible = false;
